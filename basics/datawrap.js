@@ -13,9 +13,9 @@ let BigNumber=475487548546543n
 console.log([score, ScoreV, name, islogged, temp, state])
 let Value=Symbol("123")
 let Valuem=Symbol("123")
-console.log(Value===Valuem)
-console.log(Value)
-console.log(Valuem)
+// console.log(Value===Valuem)
+// console.log(Value)
+// console.log(Valuem)
 
 //Non-Primitive-- Call by reference
 //Arrays, Objects, Functions
@@ -32,7 +32,24 @@ console.log(myObj1)
 let myfunc = function(){
     console.log("Hello World")
 }
-console.log(myfunc)
-console.log(typeof(BigNumber))
-console.log(typeof(heroes))
-console.log(typeof(myfunc))
+// console.log(myfunc)
+// console.log(typeof(BigNumber))
+// console.log(typeof(heroes))
+// console.log(typeof(myfunc))
+//***********MEMORY****************** */
+//STACK (Primitive datatypes): when memory is allocated in stack, call by value occurs which means that you get a copy of the value and not the original value. So if we change anything, only the copy gets updated, the original value remains the sam
+//HEAP (Non primitive datatypes) When memory is allocated in heap, call by reference occurs which means the original value is referenced to the variable. So if we change the value the original value gets updated.
+let numberone=240;
+let numbertwo=numberone
+numbertwo=100;
+console.log(numbertwo)
+console.log(numberone);
+
+let userone={
+    username:"Shipra",
+    useremail:"shipra@gmail.com"
+}
+let usertwo=userone;
+usertwo.username="Hitesh"
+console.log(userone);
+console.log(usertwo);
