@@ -53,3 +53,11 @@ let usertwo=userone;
 usertwo.username="Hitesh"
 console.log(userone);
 console.log(usertwo);
+
+let nameone= function(){
+    namep="ShipraMangla"
+}
+let nametwo=nameone
+nametwo.namep="Mangla Shipra"
+console.log(nameone.namep)
+console.log(nametwo.namep)
