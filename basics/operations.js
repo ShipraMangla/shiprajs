@@ -34,8 +34,8 @@ console.log(GameCounter);
 //prefix===increment first and then assigns
 
 // let x=4
-// x++;
-// let y=x;
+
+// let y=x++;
 // console.log("x= " +x);
 // console.log("y="+y);
 
