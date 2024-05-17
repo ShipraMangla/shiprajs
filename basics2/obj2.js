@@ -48,8 +48,16 @@ const Users=[
 
 ]
 //console.log(Users[1].name);
-console.log(Appleuser);
-console.log(Object.keys(Appleuser));
-console.log(Object.values(Appleuser));
-console.log(Object.entries(Appleuser));
-console.log(Appleuser.hasOwnProperty("isLoggedin"));
+// console.log(Appleuser);
+// console.log(Object.keys(Appleuser));
+// console.log(Object.values(Appleuser));
+// console.log(Object.entries(Appleuser));
+// console.log(Appleuser.hasOwnProperty("isLoggedin"));
+const courses ={
+    name:"javascript",
+    price:999,
+    instructor:"hitesh"
+}
+console.log(courses.instructor);
+const{instructor:i}=courses;
+console.log(i);
