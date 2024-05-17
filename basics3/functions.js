@@ -12,7 +12,7 @@
 // function add(number1,number2){
 //     const result=number1+number2;
 //     console.log("adition");
-//     return result;
+//     return result; return number1+number2;
 // }
 // const res = add(5,7);
 // console.log(res);
