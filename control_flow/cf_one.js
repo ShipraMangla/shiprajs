@@ -39,3 +39,13 @@ else if(balance<100){
 }else{
     console.log("balance is 2000");
 }
+const userloggedin=true
+const debitacrd=true
+const loginviagoogle=true
+const loginviaemail=false
+if(userloggedin &&debitacrd){
+    console.log("Allow to shop");
+}
+if(loginviaemail || loginviagoogle){
+    console.log("allow to log in");
+}
