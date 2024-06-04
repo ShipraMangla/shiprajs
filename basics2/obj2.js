@@ -61,3 +61,10 @@ const courses ={
 console.log(courses.instructor);
 const{instructor:i}=courses;
 console.log(i);
+
+const sample={
+    "1":'a',
+    [1]:'b',
+    1:"c"
+}
+console.log(sample["1"]);
