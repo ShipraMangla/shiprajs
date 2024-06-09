@@ -30,10 +30,10 @@ map.set("VA","VIRGINIA")
 //console.log(map);
 
 for (const keys of map) {
-    //console.log(keys);
+    console.log(keys);
 }
 for (const [keys,value] of map) {// known as array destructuring
-    //console.log(keys, ":-", value);
+    console.log(keys, ":-", value);
 }
 const Myobj={
     name:"Shipra",
@@ -42,7 +42,7 @@ const Myobj={
 // for (const [key,value] of Myobj) {
 //     console.log(key,":-",value);
 // }
-for (const key of Myobj) {
-    console.log(key);
-}
+//for (const key of Myobj) {
+   // console.log(key);
+//}
 //for of loops cannot be applied to iterate objects
